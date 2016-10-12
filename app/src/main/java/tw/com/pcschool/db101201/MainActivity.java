@@ -28,4 +28,10 @@ public class MainActivity extends AppCompatActivity {
         ft.replace(R.id.layout_frag, new FragmentB());
         ft.commit();
     }
+    public void clickC(View v)
+    {
+        FragmentTransaction ft = getFragmentManager().beginTransaction();
+        ft.replace(R.id.layout_frag, new FragmentC());
+        ft.commit();
+    }
 }

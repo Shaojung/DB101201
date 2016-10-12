@@ -29,6 +29,13 @@
             android:text="Btn2"
             android:id="@+id/button2"
             android:onClick="click2" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CCC"
+            android:id="@+id/button3"
+            android:onClick="clickC" />
     </LinearLayout>
 
     <LinearLayout
